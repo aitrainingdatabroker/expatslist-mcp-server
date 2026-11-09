@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "expatslist",
+  "version": "1.0.0",
+  "description": "Read-only ExpatsList MCP server and skill: city guides from local business listings, questions and answers, classifieds and country reference tables (nomad visas, cost of living, healthcare, tax, safety, tipping).",
+  "author": {
+    "name": "ExpatsList",
+    "url": "https://expatslist.org"
+  },
+  "homepage": "https://expatslist.org",
+  "repository": "https://github.com/aitrainingdatabroker/expatslist-mcp-server",
+  "keywords": ["expat", "city guide", "nomad visa", "cost of living", "local businesses", "relocation", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "expatslist": { "trust": "untrusted" }
+      }
+    }
+  }
+}
